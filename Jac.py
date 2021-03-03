@@ -28,7 +28,7 @@ class JacmquesMod(loader.Module):
 	async def jacmcmd(self, message):
 		""".jacm <реплай на сообщение/свой текст>"""
 		
-		ufr = requests.get("https://raw.githubusercontent.com/holex234/ping-redacted/master/stuff/jac1.ttf")
+		ufr = requests.get("https://raw.githubusercontent.com/semolik/mymodules/master/stuff/jac1.ttf")
 		f = ufr.content
 		
 		reply = await message.get_reply_message()
